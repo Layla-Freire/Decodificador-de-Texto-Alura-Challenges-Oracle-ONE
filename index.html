@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador e Decodificador</title>
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <link rel="stylesheet" href="./CSS/estilo.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./Imagems/Frame 6.svg" alt="logo com a letra a" height="54px">
+        </div>
+    </nav>
+
+    <section class="conteudo">
+        <section class="area">
+            <div id="digitar">
+                <input class="input-texto" id="escrever" name="escrever" placeholder="Digite seu texto." rows="4" cols="50" >
+                </input>
+                 <br>
+                <p>
+                     <img src="./Imagems/atencao.png" alt="logo de atenção">Apenas letras minúsculas e sem acento.
+                </p>
+                <br>
+                <button  class="criptografar" type="button" onclick="btnEncriptar()">Criptografar</button>
+                <button class="descriptografar" type="button" onclick="btnDesencriptar()">Descriptografar</button>  
+            </div>
+            <div id="desaparecer">
+                <input class="mensagem" id="copiar" placeholder=""rows="4" cols="50">
+                </input>
+               <div class="absoluto"> <button id="copiado" onclick="TextoCopiado()">Copiar</button> </div>         
+            </div>
+            <div>
+                
+            </div>
+        </section>
+    </section>
+
+    <script src="./JS/java.js"></script>
+</body>
+<footer>
+    <section class="conteudo">
+       <section class="area">
+        <div>
+            <h2> &copy;2022 por Layla Freire</h2>
+            <h3>Challenge ONE-Oracle Next Education / Alura</h3>
+        </div>
+        <div>
+            <a class="ln" href="https://www.linkedin.com/in/layla-freire"><img src="./Imagems/linkedin (1).png" alt="logo do linkedin" height="54px"></a>
+            <a class="git" href="HTTPS://GITHUB.COM/LAYLA-FREIRE"><img src="./Imagems/github.png" alt="logo do github" height="54px"></a>
+        </div>
+       </section>       
+    </section>
+</footer>
+</html>
