@@ -1,0 +1,145 @@
+/*Formatação Index*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgba(10, 56, 113, 1);
+}
+h3 {
+    font-size: 15px;
+    padding-top: 5px;
+    color: rgba(10, 56, 113, 1);
+}
+p {
+    color: rgba(128, 128, 128, 1);
+    font-size: 12px;
+    padding-top: 190px;
+    padding-bottom: 15px;
+}
+/*estilo do menu*/
+nav {
+    background-color: rgba(243, 245, 252, 1);
+}
+.logo img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*estilo do Codificador*/
+.conteudo {
+    margin: 0 auto;
+    width: 100%;
+    background-color: rgba(243, 245, 252, 1);
+      
+}
+.conteudo .area {
+    text-align: center;
+    border-bottom-color: rgba(220, 220, 220, 1);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    height:auto;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    display: flex;
+    flex-direction: row; 
+}
+.conteudo .area>div {
+    flex: 1;
+}
+
+#escrever {
+    background-color: rgba(243, 245, 252, 1);
+    border: none;
+    height: 90px;
+    width: 500px;
+    font-size: 20px;
+    padding-left: 10px;
+   
+}
+::placeholder {
+    color: rgba(10, 56, 113, 1);
+    font-size: 25px;
+    text-align: left;
+   
+}
+#copiar {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 5%;
+    height: 390px;
+    width: 250px;
+    border: none;
+    background-image: url("../Imagems/High\ quality\ products\ 1\ 1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15.0em;
+    padding-left: 1.3em; 
+    font-size: 20px;
+}
+#copiar::-moz-placeholder {
+    color: rgba(10, 56, 113, 1);
+    font-style: bold;
+    
+}
+#copiado {
+    padding: 10px 30px !important;
+    margin-top: 10px;
+}
+.criptografar, .descriptografar, #copiado {
+    border-color:  rgba(10, 56, 113, 1);
+    text-align: center;
+    font-size: 16px;
+    border-radius: 20px;
+}
+.criptografar, #copiado  {
+    background-color: rgba(10, 56, 113, 1);
+    color: rgba(216, 223, 232, 1);
+    padding: 15px 55px;
+}
+.descriptografar {
+    background-color: rgba(216, 223, 232, 1);
+    color: rgba(10, 56, 113, 1);
+    padding: 15px 45px;
+}
+.criptografar:hover {
+    background-color: rgba(216, 223, 232, 1);
+    color: rgba(10, 56, 113, 1);
+}
+.descriptografar:hover {
+    background-color: rgba(10, 56, 113, 1);
+    color: rgba(216, 223, 232, 1);
+}
+#desaparecer, #digitar {
+  margin-left: 200px;
+}
+
+
+@media (max-width: 768px) {
+    .conteudo .area {
+      flex-direction: column;
+    }
+    #copiar {
+        height: 90px;
+        width: 400px;
+        margin-top: 10px;
+        background-image: none;
+    }
+    p {
+        padding-top: 20px;
+    }
+    h3 {
+        padding-bottom: 5px;
+    }
+    .git {
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+
+    #desaparecer, #digitar {
+        margin-left: 0;
+    }
